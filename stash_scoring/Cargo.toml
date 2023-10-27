@@ -1,0 +1,11 @@
+[package]
+name = "stash_scoring"
+version = "0.3.0"
+authors = ["Morgan Houppin <morganhouppin@gmail.com>"]
+edition = "2021"
+description = "A small tool for scoring chess positions using an UCI-compliant engine"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.2.7", features = ["derive"] }
